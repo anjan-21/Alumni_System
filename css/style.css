@@ -1,16 +1,3 @@
-.home_first__page {
-  background: linear-gradient(rgba(16, 29, 44, 0.5), rgba(16, 29, 44, 0.5)),
-    url("../Images/home-bg.jpg") center no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 80vh;
-  z-index: -1;
-}
-.home_second__page {
-  background-color: rgb(216, 215, 215);
-  width: 100%;
-  height: 1300px;
-}
 .on {
   background-color: rgb(219, 80, 80) !important;
   color: white;
@@ -20,6 +7,17 @@
   color: white;
 }
 
+/* **************************************** Hero Page Styling Start **************************************** */
+.hero__page {
+  background: linear-gradient(rgba(16, 29, 44, 0.5), rgba(16, 29, 44, 0.5)),
+    url("../Images/home-bg.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+}
+
+/* Header Styling Start */
 .header {
   background-color: gainsboro;
   position: relative;
@@ -54,6 +52,13 @@
   width: 60%;
   height: 50vh;
 }
+
+.home_second__page {
+  background-color: rgb(216, 215, 215);
+  width: 100%;
+  height: 1300px;
+}
+/* **************************************** Hero Page Styling End **************************************** */
 
 .comman__header .blank {
   padding: 23px 135.5px !important;

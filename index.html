@@ -10,6 +10,7 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
+    <!-- Swiper css -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -21,6 +22,7 @@
       href="./css/fontawesome-free-5.15.1-web/css/all.css"
     />
 
+    <!-- Text Animation -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -28,7 +30,9 @@
   </head>
 
   <body>
-    <div class="home_first__page">
+    <!-- **************************************** Hero Page Start **************************************** -->
+    <div class="hero__page">
+      <!-- Header Start -->
       <div class="header">
         <div class="title container px-0">
           <nav class="navbar navbar-light px-0 pt-4">
@@ -113,6 +117,9 @@
           </nav>
         </div>
       </div>
+      <!-- Header End -->
+
+      <!-- Caroual Start -->
       <div class="text_caroual">
         <div
           id="carouselExampleInterval"
@@ -209,9 +216,13 @@
           </div>
         </div>
       </div>
+      <!-- Caroual End -->
     </div>
+    <!-- **************************************** Hero Page End **************************************** -->
+
+    <!-- **************************************** Home Second Page Start **************************************** -->
     <div class="home_second__page">
-      <div class="first_line pt-5">
+      <div class="home_services pt-5">
         <div class="container">
           <div class="row">
             <div class="col-3 py-5">
@@ -279,7 +290,7 @@
           </div>
         </div>
       </div>
-      <div class="second_line mb-5 py-5">
+      <div class="home_network mb-5 py-5">
         <div class="container">
           <div class="row">
             <div class="col-6">
@@ -304,7 +315,7 @@
           </div>
         </div>
       </div>
-      <div class="third_line container">
+      <div class="home_details_slider container">
         <!-- Swiper -->
         <div class="swiper-container">
           <div class="swiper-wrapper">
@@ -412,6 +423,7 @@
         </div>
       </div>
     </div>
+    <!-- **************************************** Home Second Page End **************************************** -->
     <div class="comman__footer py-5 text-center">
       <p>© All rights reserved | Design by Shashank Gupta</p>
     </div>
@@ -421,15 +433,6 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script>
-      var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 4,
-        spaceBetween: 10,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
