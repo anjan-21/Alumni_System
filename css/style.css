@@ -111,12 +111,7 @@
 }
 /* **************************************** About Page Styling End **************************************** */
 
-.about_details_page {
-  background-color: rgb(216, 215, 215);
-  width: 100%;
-  height: 850px;
-}
-
+/* **************************************** Famous Alumni Details Styling Start **************************************** */
 .famous-alumni_details_page {
   background-color: rgb(216, 215, 215);
   width: 100%;
@@ -149,7 +144,9 @@
   background-color: rgb(219, 80, 80);
   transition: all 0.5s;
 }
+/* **************************************** Famous Alumni Details Styling End **************************************** */
 
+/* **************************************** Contact Page Styling Start **************************************** */
 .contact__page_details {
   background-color: rgb(216, 215, 215);
   width: 100%;
@@ -161,4 +158,11 @@
 .contact__page_details .map_container {
   width: 100%;
   height: 400px;
+}
+/* **************************************** Contact Page Styling End **************************************** */
+
+.about_details_page {
+  background-color: rgb(216, 215, 215);
+  width: 100%;
+  height: 850px;
 }
