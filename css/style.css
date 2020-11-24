@@ -7,6 +7,34 @@
   color: white;
 }
 
+.button {
+  border: 2px solid rgb(219, 80, 80);
+  padding: 0.4rem 2rem;
+  font-size: 14px;
+  /* transition: 0.5s; */
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 95%;
+  height: 100%;
+  background: rgb(219, 80, 80);
+  z-index: -1;
+  transform: skewX(50deg) scaleX(0);
+  transition: 0.2s;
+}
+.button:hover::before {
+  transform: skewX(50deg) scaleX(1);
+}
+.button:hover {
+  color: white !important;
+}
+
 /* **************************************** Hero Page Styling Start **************************************** */
 .hero__page {
   background: linear-gradient(rgba(16, 29, 44, 0.5), rgba(16, 29, 44, 0.5)),
@@ -80,11 +108,13 @@
   color: black;
   font-weight: 400;
 }
-.swiper-slide h4 a:hover {
-  color: rgb(219, 80, 80);
-  transition: all 0.3s linear;
+.swiper-slide:hover {
+  cursor: pointer;
 }
-
+.swiper-slide:hover h4 a {
+  color: rgb(219, 80, 80);
+  transition: all 0.3s ease-in-out;
+}
 /* **************************************** Hero Page Styling End **************************************** */
 
 /* **************************************** About Page Styling Start **************************************** */
